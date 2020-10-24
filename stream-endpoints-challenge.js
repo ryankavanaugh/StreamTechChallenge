@@ -7,8 +7,8 @@ import create from 'stream-chat';
 // Express Server and Chat App
 const PORT = 1799;
 const server = express();
-const app_key = 'a24hydycyr95';
-const secret = '37y77dnu84cqckvak3uq479pb4kqw6veuv8h3bdhpkv59w33tr49j3ryau2g9gwu'
+const app_key = 'app key';
+const secret = 'API secret'
 const chatClient = new StreamChat(app_key, secret);
 
 // Confirm Server is up
