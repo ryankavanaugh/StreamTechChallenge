@@ -1,8 +1,7 @@
 // Headers for testing AddMembersToChannelEndpoint
 
-'headers': {
+  'headers': {
     'users': ['laura', 'michelle', 'mythas'],
-    'user_id': 'userID',
-    'channel_id': 'channel_orange',
-    'type': 'messaging'
-  },
+    'user_id': 'rkava',
+    'channel_id': 'channel_orange'
+  }
