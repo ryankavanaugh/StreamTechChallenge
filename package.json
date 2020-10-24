@@ -1,0 +1,24 @@
+{
+  "name": "express-tutorial",
+  "version": "1.0.0",
+  "description": "",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "es6": "0.0.7",
+    "express": "^4.17.1",
+    "getstream": "^6.2.0",
+    "stream-chat": "^2.7.0"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-env": "^1.7.0",
+    "rimraf": "^3.0.2"
+  }
+}
