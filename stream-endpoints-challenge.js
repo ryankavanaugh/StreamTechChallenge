@@ -16,7 +16,6 @@ server.listen(PORT, () => {
   console.log(`Server is listening on port: ${PORT}`);
  });
 
-
 // Endpoint Example: given a userID, return a signed JWT for the chat application
 server.post("/token", async (req, res) => {
   const user_id  = req.body;
