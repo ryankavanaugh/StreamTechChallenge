@@ -38,7 +38,6 @@ server.post("/token", async (req, res) => {
 server.post("/addMembersToChannel", async (req, res) => {
   // Separate names into a new array free of any white space so they work as IDs
   const newChannelMembers = req.headers.users.replace(/\s/g, "").split(',');
-
   // Go through the array of all user names and create these users to ensure they are present in the system
   const arrayLength = newChannelMembers.length;
   for (var i = 0; i < arrayLength; i++) {
