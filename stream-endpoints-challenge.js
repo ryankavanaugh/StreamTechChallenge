@@ -40,7 +40,7 @@ server.post("/addMembersToChannel", async (req, res) => {
   const newChannelMembers = req.headers.users.replace(/\s/g, "").split(',');
 
   // Go through the array of all user names and create these users to ensure they are present in the system
-  var arrayLength = newChannelMembers.length;
+  const arrayLength = newChannelMembers.length;
   for (var i = 0; i < arrayLength; i++) {
       await chatClient.upsertUser({ id: "" + newChannelMembers[i] });
   }
